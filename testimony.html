@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title> testimonies</title>
+  <title> Testimonies</title>
   <meta content="Rediscover your lost crypto assets with the assistance of our reliable experts at Crypto Asset Recovery. Our solutions are fast, secure, and trustworthy, ensuring the swift retrieval of your digital wealth. Take advantage of a complimentary consultation now to begin the journey of reclaiming your assets." name="description"/>
   <meta content="" name="description">
   <meta content="" name="keywords">
@@ -25,7 +25,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/font-awesome.css">
@@ -41,6 +41,53 @@
     .about{
         margin-top: 100px;
     }
+    .carousel img {
+  width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  overflow: hidden;
+}
+.carousel-inner {
+  padding: 1em;
+}
+
+@media screen and (min-width: 576px) {
+  .carousel-inner {
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    padding: 1em 0;
+    overflow: hidden;
+  }
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 2);
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel-item {
+    display: block;
+    margin-right: 0;
+    flex: 0 0 calc(100% / 3);
+  }
+}
+.carousel .card {
+  margin: 0 0.5em;
+  border: 0;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 3rem;
+  height: 3rem;
+  background-color: grey;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
   </style>
 </head>
 
@@ -233,190 +280,225 @@
 
         <div class="section-title" data-aos="fade-up">
           <h2>testimonies</h2>
-          <h4>Read our testimonials</h4>
+          <h5>Read our testimonials</h5>
         </div>
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
-            <h5 style="font-weight: 700;">
-                Ensuring Your Cryptocurrency Remains Secure
-            </h5>
-            <ul>
-              <li> At Rykalaban Asset Recovery, we recognize the significance of safeguarding your cryptocurrency. That's why we're committed to retrieving the passwords for your misplaced wallets, guaranteeing the security of your digital assets.</li>
      
-              <h5 style="font-weight: 700;">
-            </ul>
-          </div>
-          <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
-      
-            <p>       
-
-                Imagine this: You've stashed a digital fortune in a crypto wallet, but the password is elusive. It's akin to a treasure chest without its key – exasperating, isn't it? Yet, there's still hope. Our seasoned team employs state-of-the-art, air-gapped servers to decipher the code and restore control over your assets.
-  
-                  Don't allow a forgotten password to stand between you and your digital wealth. Count on us as your crypto guardians, dedicated to retrieving your lost assets.
-            </p>
-         
-          </div>
+   
         </div>
 
-      </div>
+      </div>    
+
+      <h1 data-aos="fade-up" style="color: #787878; text-align: center;"> "Forgotten wallet passwords can lead to potential losses in the millions, but there are avenues available for recovery."</h1>
     </section><!-- End About Us Section -->
 
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-            <img src="assets/img/homepage1.png" alt="" class="img-fluid">
-          </div>
-
-          <div class="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-            <div class="content d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-activity"></i>
-                   
-                    <p style="font-weight: 500;"><strong>Vision:</strong> <br>
-                        To become the leading catalyst in restoring digital trust and security, empowering individuals to reclaim control over their crypto assets and financial independence</p>
-                  </div>
-           </div>
-
-                <div class="col-md-6 d-md-flex align-items-md-stretch">
-                  <div class="count-box">
-                    <i class="bi bi-bricks"></i>
-                   
-                    <p><strong>Mission:
-                     </strong>  <br>  
-                     At Rykalaban Asset Recovery, our mission is to provide unparalleled expertise and innovative solutions to individuals facing challenges in accessing their crypto assets. Through cutting-edge technologies and unwavering dedication, we aim to deliver reliable and ethical recovery services, ensuring our clients regain control over their digital wealth with peace of mind</p>
-                  </div>
+  <!-- TESTIMONIALS -->
+  <div class="container-fluid bg-body-tertiary py-3">
+    <div id="testimonialCarousel" class="carousel">
+        <h2 data-aos="fade-up" style="text-align: center; color: #000; font-weight: 600;">"Take more than just our word for it."</h2>
+        <p data-aos="fade-up" style="text-align: center; font-weight: 500;">"Listen to the stories of our incredible customers who have successfully recovered their funds."</p>
+      
+        <div class="carousel-inner" >
+   
+        <div class="carousel-item active" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-1.png" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">Jane Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
                 </div>
-
-
               </div>
-            </div><!-- End .content-->
+            </div>
           </div>
         </div>
-
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/square-headshot-2.png" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">June Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-aos="fade-up">
+          <div class="card shadow-sm rounded-3">
+            <div class="quotes display-2 text-body-tertiary">
+              <i class="bi bi-quote"></i>
+            </div>
+            <div class="card-body">
+              <p class="card-text">"Some quick example text to build on the card title and make up the
+                bulk of
+                the card's content."</p>
+              <div class="d-flex align-items-center pt-2">
+                <img src="https://codingyaar.com/wp-content/uploads/bootstrap-profile-card-image.jpg" alt="bootstrap testimonial carousel slider 2">
+                <div>
+                  <h5 class="card-title fw-bold">John Doe</h5>
+                  <span class="text-secondary">CEO, Example Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section><!-- End Counts Section -->
-<!-- ========================================================================= -->
-<section id="about" class="about">
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <h2>About Us</h2>
-        <h5>About Our Founders</h5>
-      </div>
-      <p>Rykalaban.com was established with the mission of empowering cryptocurrency owners to safeguard their assets. Founded in 2014 by George smith, a seasoned professional with extensive experience in technology, including roles as VP of Technology at Carescout and a programmer at Fidelity Investments.
-<br><br>
-        In 2021, the company expanded with the addition of George's son, George, a computer science student at the University of Vermont, bringing fresh insights and technical expertise.
-        <br><br>
-        Together, Chris and George lead Rykalaban.com, pioneering solutions in the crypto asset recovery field and contributing to the widespread adoption of cryptocurrency. Today, we stand at the forefront of this dynamic and rapidly evolving industry.</p>
-
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev" data-aos="fade-up">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next" data-aos="fade-up">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-</section>
-    <!-- ================================================= -->
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
+  </div>
+<!-- ========================================================================= -->
 
-        <div class="section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>Mobilizing Trust, Recovering Value</p>
-        </div>
+<div class="container container2" data-aos="fade-up" style="margin: 50px 0px;">
+    <div class="contained">
+    <div class="text">
+      <h2>Your keys, back in your pocket</h2>
+      <p>Put your finances under your control again. Click "Get started" to get help.          </p>
+    </div>
 
-        <div class="row">
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="./contact.html">Password Recovery</a></h4>
-              <p class="description">Regain access to your cryptocurrency wallets by recovering forgotten passwords.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="./contact.html">Scam Tracing</a></h4>
-              <p class="description"> Investigate and trace the path of funds lost to scams, providing insights for potential recovery actions.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="./contact.html">Asset Recovery</a></h4>
-              <p class="description"> Assist in the recovery of lost or inaccessible digital assets through comprehensive recovery strategies.</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="./contact.html">Customer Support</a></h4>
-              <p class="description"> Provide dedicated assistance and support to clients throughout the recovery process, ensuring a smooth and transparent experience.</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= More Services Section ======= -->
- 
-
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container">
-
-        <div class="section-title" data-aos="fade-up">
-          <h2>Team</h2>
-          <p>Behind Every Solution, There's a Dedicated Team</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/george smith.jpg" class="img-fluid" alt="">
-                
-              </div>
-              <div class="member-info">
-                <h4>George Smith</h4>
-                <span>
-                    Chief Technology Officer</span><br>
-                    <span>Lead of technology and growth at RNAR, UVM Comp Sci.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/chris reece.jpg" class="img-fluid" alt="">
-              
-              </div>
-              <div class="member-info">
-                <h4>Chris Reece</h4>
-                <span>
-                    Chief Executive Officer Technology Officer</span><br>
-                    <span>Founder and CEO of RNAR, VP Technology Carescout.</span>
-              </div>
-            </div>
-          </div>
-
-         
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
+    <div class="button">
+      <button><a href="./testimony.html" style="color: #000;">See our testimonials</a></button>
+      <button><a href="./contact.html" style="color: #fff;">Get started</a></button>
+    </div> <div class="clear"></div>
+  </div>
+</div>
 
 
  
@@ -452,7 +534,10 @@
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
+
+
   <!-- Vendor JS Files -->
+  <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -465,7 +550,61 @@
   <script src="assets/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="./assets/js/nav.js"></script>
+  <script>
+    const multipleItemCarousel = document.querySelector("#testimonialCarousel");
 
+if (window.matchMedia("(min-width:576px)").matches) {
+  const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+    interval: false
+  });
+
+  var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+  var cardWidth = $(".carousel-item").width();
+
+  var scrollPosition = 0;
+  var timer;
+
+  function startTimer() {
+    timer = setInterval(function() {
+      if (scrollPosition < carouselWidth - cardWidth * 3) {
+        console.log("next");
+        scrollPosition = scrollPosition + cardWidth;
+        $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+      }
+    }, 3000); // Adjust the time interval here (3000 milliseconds = 3 seconds)
+  }
+
+  function stopTimer() {
+    clearInterval(timer);
+  }
+
+  startTimer();
+
+  $(".carousel-control-next").on("click", function() {
+    if (scrollPosition < carouselWidth - cardWidth * 3) {
+      console.log("next");
+      scrollPosition = scrollPosition + cardWidth;
+      $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+      stopTimer();
+      startTimer();
+    }
+  });
+
+  $(".carousel-control-prev").on("click", function() {
+    if (scrollPosition > 0) {
+      scrollPosition = scrollPosition - cardWidth;
+      $(".carousel-inner").animate({ scrollLeft: scrollPosition }, 800);
+      stopTimer();
+      startTimer();
+    }
+  });
+} else {
+  $(multipleItemCarousel).addClass("slide");
+}
+
+  
+    
+    </script>
 </body>
 
 </html>
